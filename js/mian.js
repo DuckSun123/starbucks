@@ -6,7 +6,7 @@ searchEl.addEventListener('click', function () {
 });
 
 searchInputEl.addEventListener('focus', function () {
-  searchEl.classList.add('focused');
+  searchEl.classList.add('focused'); 
   searchInputEl.setAttribute('placeholder', '통합검색');
 });
 
